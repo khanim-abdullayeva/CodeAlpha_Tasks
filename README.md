@@ -1,35 +1,75 @@
-# World Archery Web Scraper
+# 🏹 World Archery Web Scraper
 
-## Overview
-This project was completed as part of the CodeAlpha Data Analytics Internship.
+## 📌 Project Overview
 
-The project collects competition results from the World Archery official API, processes the data with Python, and exports the results into an Excel workbook.
+This project was completed as part of the **CodeAlpha Data Analytics Internship**.
 
-## Features
-- Scrapes individual and team competition results
-- Cleans and organizes the data using Pandas
-- Exports multiple sheets to an Excel file
-- Uses reusable Python functions
+The scraper collects competition results from the official **World Archery API**, processes the data using Python and Pandas, and exports the results into an organized Excel workbook.
 
-## Technologies
+---
+
+## 🚀 Features
+
+- Scrape individual competition results
+- Scrape team competition results
+- Clean and organize the data
+- Export multiple sheets to Excel
+- Modular Python code
+
+---
+
+## 🛠 Technologies
+
 - Python
 - Requests
 - Pandas
 - OpenPyXL
 
-## Project Structure
+---
 
+## 📁 Project Structure
+
+```
 world_archery_scraper/
+│
 ├── main.py
 ├── scrape_2.py
 ├── export_excel.py
-├── world_archery_results.xlsx
 ├── requirements.txt
+├── world_archery_results.xlsx
+├── .gitignore
 └── README.md
+```
 
-## Data Source
+---
 
-World Archery – Gwangju 2025 Hyundai World Archery Championships Results
+## ▶️ How to Run
+
+Install the required libraries:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the project:
+
+```bash
+python main.py
+```
+
+---
+
+## 📊 Output
+
+The project generates an Excel workbook containing organized competition results.
+
+---
+
+## 🌐 Data Source
+
+World Archery
 
 https://www.worldarchery.sport/competition/24448/gwangju-2025-hyundai-world-archery-championships/results#!/
+
+
 
