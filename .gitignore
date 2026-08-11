@@ -7,3 +7,4 @@ __pycache__/
 
 *.log
 world_archery_results.xlsx
+.ipynb_checkpoints/
