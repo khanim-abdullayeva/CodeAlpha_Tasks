@@ -25,12 +25,13 @@ It performs exploratory data analysis on NYC motor vehicle collision records fro
 
 ## 📁 Project Structure
 ```
-nyc-accidents-2020-eda/
+CodeAlpha_Tasks/
 │
-├── EDA.ipynb
-├── data/
-│   └── NYC Accidents 2020.csv
-└── README.md
+└── Task 2 - EDA/
+    ├── data/
+    │   └── NYC Accidents 2020.csv
+    ├── EDA.ipynb
+    └── README.md
 ```
 
 ---
