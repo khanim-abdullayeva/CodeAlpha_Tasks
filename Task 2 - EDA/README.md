@@ -31,6 +31,7 @@ CodeAlpha_Tasks/
     ├── data/
     │   └── NYC Accidents 2020.csv
     ├── EDA.ipynb
+    ├── requirements.txt
     └── README.md
 ```
 
@@ -39,7 +40,7 @@ CodeAlpha_Tasks/
 ## ▶️ How to Run
 Install the required libraries:
 ```bash
-pip install polars plotly
+pip install -r requirements.txt
 ```
 Run the project:
 ```bash
@@ -56,4 +57,6 @@ jupyter notebook EDA.ipynb
 - Excluding "Unspecified" values, **Driver Inattention/Distraction** was the leading known contributing factor, responsible for 11,900 crashes.
 
 ---
+
+
 
