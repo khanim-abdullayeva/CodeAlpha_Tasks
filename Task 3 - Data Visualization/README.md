@@ -38,7 +38,7 @@ Task 3 - Data Vizualization/
 
 ## Dashboard Preview
 
-Screenshots of the dashboard are available in the `screenshots` folder.
+![Cruise Revenue Dashboard](screenshots/dashboard.png)
 
 ## Objective
 
